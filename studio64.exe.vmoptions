@@ -1,0 +1,10 @@
+# custom Android Studio VM options, see https://developer.android.com/studio/intro/studio-config.html
+-Dsun.java2d.d3d=false
+-Dsun.java2d.opengl=true
+-Xms1024m
+-Xmx4096m
+-XX:MaxPermSize=1024m
+-XX:ReservedCodeCacheSize=440m
+-XX:+UseCompressedOops
+-XX:+HeapDumpOnOutOfMemoryError
+-Dfile.encoding=UTF-8
